@@ -10,18 +10,18 @@ class MainScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('base_model', '/assets/visuals/base_model.png');
+    this.load.image('base_model', 'assets/visuals/base_model.png');
 
     // Tools
-    this.load.image('icon_shoe', '/assets/visuals/tool_shoe.webp');
-    this.load.image('icon_gun', '/assets/visuals/tool_gun.png');
-    this.load.image('icon_sword', '/assets/visuals/tool_sword.png');
+    this.load.image('icon_shoe', 'assets/visuals/tool_shoe.webp');
+    this.load.image('icon_gun', 'assets/visuals/tool_gun.png');
+    this.load.image('icon_sword', 'assets/visuals/tool_sword.png');
 
     // Damage & FX
-    this.load.image('damage_shoeprint', '/assets/visuals/damage_shoeprint.png'); // Shoe
-    this.load.image('damage_bullet_hole', '/assets/visuals/bullet_hole.png'); // Gun
-    this.load.image('damage_cut', '/assets/visuals/damage_cut.png'); // Sword
-    this.load.image('fx_muzzle', '/assets/visuals/fx_muzzle.png');
+    this.load.image('damage_shoeprint', 'assets/visuals/damage_shoeprint.png'); // Shoe
+    this.load.image('damage_bullet_hole', 'assets/visuals/bullet_hole.png'); // Gun
+    this.load.image('damage_cut', 'assets/visuals/damage_cut.png'); // Sword
+    this.load.image('fx_muzzle', 'assets/visuals/fx_muzzle.png');
   }
 
   create() {
